@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'utm_helvetinsregular';
+    src: url('../font/utm_helvetins.eot');
+    src: url('../font/utm_helvetins.eot?#iefix') format('embedded-opentype'),
+         url('../font/utm_helvetins.woff2') format('woff2'),
+         url('../font/utm_helvetins.woff') format('woff'),
+         url('../font/utm_helvetins.ttf') format('truetype'),
+         url('../font/utm_helvetins.svg#utm_helvetinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a. a:hover{
+	text-decoration: none !important;
+}
+/*HEADER*/
+#header-bot{
+	background: none scroll 0 0 #343434;
+}
+.container_in::before, .container_in::after, .mainnav::before, .mainnav::after{
+	content: " ";
+	display: table;
+}
+.container_in::after, .mainnav::after{
+	clear: both;
+}
+#header-bot #main-menu{
+	float: left;
+}
+#header-bot #user-wrap{
+	float: right;
+	position: relative;
+	text-align: right;
+}
+ul.mainnav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+ul.mainnav li.level0 {
+    border: medium none;
+    display: inline-block;
+    float: left;
+    position: relative;
+    text-align: left;
+}
+ul.mainnav li.level0 > a {
+	font-family: utm_helvetinsregular;
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 15px 20px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.2s ease-out 0s;
+}
+ul.mainnav li.level0.active > a, ul.mainnav li.level0:hover > a {
+    background: #c93633 none repeat scroll 0 0;
+    color: #fff;
+    z-index: 9999;
+    text-decoration: none;
+}
+ul.fontsmall li.level0 > a{
+	font-size: 95%;
+}
