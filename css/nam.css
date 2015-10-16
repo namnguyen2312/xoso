@@ -26,10 +26,9 @@ a:hover {
 .app-content div {
 	padding-top: 2px;
 	padding-bottom: 2px;
-	border-right: 1px solid #FFFFFF;
 }
-.app-content div:last-child {
-	border-right: 0px solid #FFFFFF;
+.app-content div:not(:last-child){
+	border-right: 1px solid #FFFFFF;
 }
 .app-content div a{
 	color: #FFF;
@@ -137,13 +136,100 @@ ul.sub-menu-side {
 .direct-content .embed-link a img{
 	margin-right: 10px;
 }
-/*.computing-content ul {
-	padding-left: 10px;
-}*/
 li p.icon-status:before{
 	content: "";
 	margin-left: -15px;
 }
 li p.icon-status img {
 	padding-right:5px;
+}
+/* content */
+
+.box-kqxs {
+	background-color: #D64441;
+}
+
+.box-kqxs td .col-md-4{
+	padding-left:0px;
+	padding-right:0px;
+}
+.mm-result {
+	border: 2px #000000 solid;
+    background-color: #FFF;
+    /*border-right: 0px;
+    border-bottom: 0px;*/
+    /*margin-right: 2px;*/
+    size: 11px;
+}
+.mm-result .leftcl td, .mm-result .rightcl td{
+	border: 1px #999 solid;
+    /*border-top: 0px;
+    border-left: 0px;*/
+    text-align: center;
+    height: 24px;
+    padding: 0px;
+}
+.mm-result .leftcl .dayofweek, .mm-result .rightcl .province,
+.mm-result .leftcl .fullday, .mm-result .rightcl .province-code,
+.mm-result .leftcl .award-8, .mm-result .rightcl .award-8,
+.mm-result .leftcl .award-7, .mm-result .rightcl .award-7,
+.mm-result .leftcl .award-6, .mm-result .rightcl .award-6,
+.mm-result .leftcl .award-5, .mm-result .rightcl .award-5,
+.mm-result .leftcl .award-4, .mm-result .rightcl .award-4,
+.mm-result .leftcl .award-3, .mm-result .rightcl .award-3,
+.mm-result .leftcl .award-2, .mm-result .rightcl .award-2,
+.mm-result .leftcl .award-1, .mm-result .rightcl .award-1,
+.mm-result .leftcl .award-special, .mm-result .rightcl .award-special{
+    font-weight: bold;
+    font-size: 13px;
+}
+.mm-result .leftcl .dayofweek,
+.mm-result .rightcl .province {
+	height: 24px;
+	color: #D64441;
+}
+.mm-result .leftcl .fullday,
+.mm-result .rightcl .province-code {
+	height: 24px;
+}
+.mm-result .leftcl .award-8,
+.mm-result .leftcl .award-special,
+.mm-result .rightcl .award-8,
+.mm-result .rightcl .award-special {
+	height: 36px;
+}
+.mm-result .leftcl .award-7, .mm-result .rightcl .award-7,
+.mm-result .leftcl .award-5, .mm-result .rightcl .award-5,
+.mm-result .leftcl .award-2, .mm-result .rightcl .award-2,
+.mm-result .leftcl .award-1, .mm-result .rightcl .award-1 {
+	height: 45px;
+}
+.mm-result .leftcl .award-6, .mm-result .rightcl .award-6 {
+	height: 66px;
+}
+.mm-result .leftcl .award-4, .mm-result .rightcl .award-4 {
+	height: 154px;
+}
+.mm-result .leftcl .award-3, .mm-result .rightcl .award-3 {
+	height: 45px;
+}
+.mm-result .rightcl .award-8,
+.mm-result .rightcl .award-special  {
+    color: #b92322;
+    font-size: 24px;
+    line-height: 100%;
+}
+.mm-result .rightcl .award-7,
+.mm-result .rightcl .award-6,
+.mm-result .rightcl .award-5,
+.mm-result .rightcl .award-4,
+.mm-result .rightcl .award-3,
+.mm-result .rightcl .award-2,
+.mm-result .rightcl .award-1 {
+	font-size: 16px;
+}
+.mm-result .rightcl .award-6,
+.mm-result .rightcl .award-4,
+.mm-result .rightcl .award-3 {
+	line-height: 130%;
 }
