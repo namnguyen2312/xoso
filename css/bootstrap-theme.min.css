@@ -22,10 +22,37 @@
     color: #fff;
     border-color: transparent;
 }
+.table-responsive{
+	border:none;
+	margin-bottom: 0;
+}
 /*header*/
 @media (max-width: 768px) {
 	h1#logo {
         text-align: center;
         margin-bottom: 30px !important;
     }
+    .bkq636 div td.arrange-class{
+		width:16%;		
+	}
+}
+
+/*Table xổ số*/
+@media (max-width: 490px) {
+	.mm-result-left .rightcl .award-8,
+	.mm-result-left .rightcl .award-7,
+	.mm-result-left .rightcl .award-6,
+	.mm-result-left .rightcl .award-5,
+	.mm-result-left .rightcl .award-4,
+	.mm-result-left .rightcl .award-3,
+	.mm-result-left .rightcl .award-2,
+	.mm-result-left .rightcl .award-1,
+	.mm-result-left .rightcl .award-special {
+	    text-align: right;
+	    padding-right: 0px;
+	}
+
+	.bkq636 div td.arrange-class{
+		width:30%;		
+	}
 }

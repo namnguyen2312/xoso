@@ -75,6 +75,8 @@
                     return false;
                 });
             });
+
+            $('body').find('table').addClass('table-responsive');
         });
     };
 })(jQuery);; 
