@@ -22,10 +22,10 @@
     color: #fff;
     border-color: transparent;
 }
-.table-responsive{
+/*.table-responsive{
 	border:none;
 	margin-bottom: 0;
-}
+}*/
 /*header*/
 @media (max-width: 768px) {
 	h1#logo {
@@ -34,6 +34,132 @@
     }
     .bkq636 div td.arrange-class{
 		width:16%;		
+	}
+	.table-responsive {
+		border:none;
+		margin-bottom: 0;
+	}
+	.mm-result-left {
+	    border: 2px #000000 solid;
+	}
+	.mm-result-right {
+	    border: 2px solid #000000;
+	}
+}
+@media (max-width: 510px) {
+	.mm-result-left .leftcl .dayofweek, .mm-result-left .rightcl .province,
+	.mm-result-left .leftcl .fullday, .mm-result-left .rightcl .province-code,
+	.mm-result-left .leftcl .award-8, .mm-result-left .rightcl .award-8,
+	.mm-result-left .leftcl .award-7, .mm-result-left .rightcl .award-7,
+	.mm-result-left .leftcl .award-6, .mm-result-left .rightcl .award-6,
+	.mm-result-left .leftcl .award-5, .mm-result-left .rightcl .award-5,
+	.mm-result-left .leftcl .award-4, .mm-result-left .rightcl .award-4,
+	.mm-result-left .leftcl .award-3, .mm-result-left .rightcl .award-3,
+	.mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2,
+	.mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
+	.mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special{
+	    font-weight: bold;
+	    font-size: 11px;
+	}
+	.mm-result-left .rightcl .award-8,
+	.mm-result-left .rightcl .award-7,
+	.mm-result-left .rightcl .award-6,
+	.mm-result-left .rightcl .award-5,
+	.mm-result-left .rightcl .award-4,
+	.mm-result-left .rightcl .award-3,
+	.mm-result-left .rightcl .award-2,
+	.mm-result-left .rightcl .award-1,
+	.mm-result-left .rightcl .award-special {
+	    text-align: right;
+	    padding-right: 2px;
+	}
+	.mm-result-left .rightcl .award-8,
+	.mm-result-left .rightcl .award-special  {
+	    color: #BA2424;
+	    font-size: 14px;
+	    line-height: 100%;
+	}
+	.mm-result-left .rightcl .award-7,
+	.mm-result-left .rightcl .award-6,
+	.mm-result-left .rightcl .award-5,
+	.mm-result-left .rightcl .award-4,
+	.mm-result-left .rightcl .award-3,
+	.mm-result-left .rightcl .award-2,
+	.mm-result-left .rightcl .award-1 {
+		font-size: 12px;
+	}
+	.mm-result-right .leftcl .name, .mm-result-right .rightcl .name,
+	.mm-result-right .leftcl .award-9, .mm-result-right .rightcl .award-9,
+	.mm-result-right .leftcl .award-8, .mm-result-right .rightcl .award-8,
+	.mm-result-right .leftcl .award-7, .mm-result-right .rightcl .award-7,
+	.mm-result-right .leftcl .award-6, .mm-result-right .rightcl .award-6,
+	.mm-result-right .leftcl .award-5, .mm-result-right .rightcl .award-5,
+	.mm-result-right .leftcl .award-4, .mm-result-right .rightcl .award-4,
+	.mm-result-right .leftcl .award-3, .mm-result-right .rightcl .award-3,
+	.mm-result-right .leftcl .award-2, .mm-result-right .rightcl .award-2,
+	.mm-result-right .leftcl .award-1, .mm-result-right .rightcl .award-1,
+	.mm-result-right .leftcl .award-0, .mm-result-right .rightcl .award-0{
+	    font-weight: bold;
+	    font-size: 11px;
+	    height: 22px;
+	}
+	.mm-result-left .rightcl .award-7-second,
+	.mm-result-left .rightcl .award-6-second,
+	.mm-result-left .rightcl .award-5-second,
+	.mm-result-left .rightcl .award-4-second,
+	.mm-result-left .rightcl .award-3-second,
+	.mm-result-left .rightcl .award-2-second,
+	.mm-result-left .rightcl .award-1-second,
+	.mm-result-left .rightcl .award-special-second {
+		font-size: 12px;
+	}
+	.mm-result-left .leftcl .dayofweek-second, .mm-result-left .rightcl .province-second,
+	.mm-result-left .leftcl .award-7-second, .mm-result-left .rightcl .award-7-second,
+	.mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
+	.mm-result-left .leftcl .award-5-second, .mm-result-left .rightcl .award-5-second,
+	.mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
+	.mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
+	.mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
+	.mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
+	.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
+	    font-weight: bold;
+	    font-size: 11px;
+	}
+	.mm-result-right .leftcl .name-second, .mm-result-right .rightcl .name-second,
+	.mm-result-right .leftcl .award-9-second, .mm-result-right .rightcl .award-9-second,
+	.mm-result-right .leftcl .award-8-second, .mm-result-right .rightcl .award-8-second,
+	.mm-result-right .leftcl .award-7-second, .mm-result-right .rightcl .award-7-second,
+	.mm-result-right .leftcl .award-6-second, .mm-result-right .rightcl .award-6-second,
+	.mm-result-right .leftcl .award-5-second, .mm-result-right .rightcl .award-5-second,
+	.mm-result-right .leftcl .award-4-second, .mm-result-right .rightcl .award-4-second,
+	.mm-result-right .leftcl .award-3-second, .mm-result-right .rightcl .award-3-second,
+	.mm-result-right .leftcl .award-2-second, .mm-result-right .rightcl .award-2-second,
+	.mm-result-right .leftcl .award-1-second, .mm-result-right .rightcl .award-1-second,
+	.mm-result-right .leftcl .award-0-second, .mm-result-right .rightcl .award-0-second{
+	    font-weight: bold;
+	    font-size: 11px;
+	    height: 27px;
+	}
+	.mm-result-left .rightcl .award-7-second,
+	.mm-result-left .rightcl .award-6-second,
+	.mm-result-left .rightcl .award-5-second,
+	.mm-result-left .rightcl .award-4-second,
+	.mm-result-left .rightcl .award-3-second,
+	.mm-result-left .rightcl .award-2-second,
+	.mm-result-left .rightcl .award-1-second,
+	.mm-result-left .rightcl .award-special-second {
+		font-size: 12px;
+	}
+	.col-xs-12 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.container {
+		padding-left: 0px;
+		/*padding-right: 0px;*/
+	}
+	.header-title h4{
+		font-size: 14px;
 	}
 }
 
@@ -51,8 +177,24 @@
 	    text-align: right;
 	    padding-right: 0px;
 	}
-
+	.mm-result-left .rightcl .award-8,
+	.mm-result-left .rightcl .award-7,
+	.mm-result-left .rightcl .award-6,
+	.mm-result-left .rightcl .award-5,
+	.mm-result-left .rightcl .award-4,
+	.mm-result-left .rightcl .award-3,
+	.mm-result-left .rightcl .award-2,
+	.mm-result-left .rightcl .award-1,
+	.mm-result-left .rightcl .award-special {
+	    text-align: right;
+	    padding-right: 2px;
+	}
 	.bkq636 div td.arrange-class{
 		width:30%;		
+	}
+}
+@media (max-width: 320px) {
+	.mm-result-left td.arrange {
+	    width: 20%;
 	}
 }
