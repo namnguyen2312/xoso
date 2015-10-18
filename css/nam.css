@@ -119,7 +119,7 @@ ul.sub-menu-side {
 }
 .direct-content ul p:before, .computing-content ul p:before{
 	content: "•";
-    color: black; /* or whatever color you prefer */
+    color: black;
     font-size: 25px;
     padding-right: 10px;
     vertical-align: sub;
@@ -147,89 +147,377 @@ li p.icon-status img {
 
 .box-kqxs {
 	background-color: #D64441;
+	border-left: 2px solid #D64441;
+	border-right: 2px solid #D64441;
+	border-bottom: 2px solid #D64441;
 }
-
-.box-kqxs td .col-md-4{
+.mm-result-left td.arrange{
+	width:15%;
+}
+.mm-result-right td.arrange {
+	width:15%;
+}
+.box-kqxs td .col-md-4,.box-kqxs td .col-md-6{
 	padding-left:0px;
 	padding-right:0px;
 }
-.mm-result {
+.mm-result-left {
 	border: 2px #000000 solid;
     background-color: #FFF;
-    /*border-right: 0px;
-    border-bottom: 0px;*/
-    /*margin-right: 2px;*/
     size: 11px;
 }
-.mm-result .leftcl td, .mm-result .rightcl td{
+.mm-result-left .leftcl td, .mm-result-left .rightcl td,
+.mm-result-right .leftcl td, .mm-result-right .rightcl td{
 	border: 1px #999 solid;
-    /*border-top: 0px;
-    border-left: 0px;*/
     text-align: center;
     height: 24px;
     padding: 0px;
 }
-.mm-result .leftcl .dayofweek, .mm-result .rightcl .province,
-.mm-result .leftcl .fullday, .mm-result .rightcl .province-code,
-.mm-result .leftcl .award-8, .mm-result .rightcl .award-8,
-.mm-result .leftcl .award-7, .mm-result .rightcl .award-7,
-.mm-result .leftcl .award-6, .mm-result .rightcl .award-6,
-.mm-result .leftcl .award-5, .mm-result .rightcl .award-5,
-.mm-result .leftcl .award-4, .mm-result .rightcl .award-4,
-.mm-result .leftcl .award-3, .mm-result .rightcl .award-3,
-.mm-result .leftcl .award-2, .mm-result .rightcl .award-2,
-.mm-result .leftcl .award-1, .mm-result .rightcl .award-1,
-.mm-result .leftcl .award-special, .mm-result .rightcl .award-special{
+.mm-result-left .leftcl .dayofweek, .mm-result-left .rightcl .province,
+.mm-result-left .leftcl .fullday, .mm-result-left .rightcl .province-code,
+.mm-result-left .leftcl .award-8, .mm-result-left .rightcl .award-8,
+.mm-result-left .leftcl .award-7, .mm-result-left .rightcl .award-7,
+.mm-result-left .leftcl .award-6, .mm-result-left .rightcl .award-6,
+.mm-result-left .leftcl .award-5, .mm-result-left .rightcl .award-5,
+.mm-result-left .leftcl .award-4, .mm-result-left .rightcl .award-4,
+.mm-result-left .leftcl .award-3, .mm-result-left .rightcl .award-3,
+.mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2,
+.mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
+.mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special{
     font-weight: bold;
     font-size: 13px;
 }
-.mm-result .leftcl .dayofweek,
-.mm-result .rightcl .province {
+.mm-result-left .leftcl .fullday,
+.mm-result-left .leftcl .award-8, .mm-result-left .leftcl .award-7-second,
+.mm-result-left .leftcl .award-7, .mm-result-left .leftcl .award-6-second,
+.mm-result-left .leftcl .award-6, .mm-result-left .leftcl .award-5-second,
+.mm-result-left .leftcl .award-5, .mm-result-left .leftcl .award-4-second,
+.mm-result-left .leftcl .award-4, .mm-result-left .leftcl .award-3-second,
+.mm-result-left .leftcl .award-3, .mm-result-left .leftcl .award-2-second,
+.mm-result-left .leftcl .award-2, .mm-result-left .leftcl .award-1-second,
+.mm-result-left .leftcl .award-1, .mm-result-left .leftcl .award-special-second,
+.mm-result-left .leftcl .award-special {
+    text-align: left;
+    padding-left: 7px;
+}
+.mm-result-left .rightcl .award-8,
+.mm-result-left .rightcl .award-7,
+.mm-result-left .rightcl .award-6,
+.mm-result-left .rightcl .award-5,
+.mm-result-left .rightcl .award-4,
+.mm-result-left .rightcl .award-3,
+.mm-result-left .rightcl .award-2,
+.mm-result-left .rightcl .award-1,
+.mm-result-left .rightcl .award-special {
+    text-align: right;
+    padding-right: 25px;
+}
+.mm-result-left .leftcl .dayofweek,
+.mm-result-left .rightcl .province {
 	height: 24px;
 	color: #D64441;
 }
-.mm-result .leftcl .fullday,
-.mm-result .rightcl .province-code {
-	height: 24px;
-}
-.mm-result .leftcl .award-8,
-.mm-result .leftcl .award-special,
-.mm-result .rightcl .award-8,
-.mm-result .rightcl .award-special {
+.mm-result-left .leftcl .award-8,
+.mm-result-left .leftcl .award-special,
+.mm-result-left .rightcl .award-8,
+.mm-result-left .rightcl .award-special {
 	height: 36px;
 }
-.mm-result .leftcl .award-7, .mm-result .rightcl .award-7,
-.mm-result .leftcl .award-5, .mm-result .rightcl .award-5,
-.mm-result .leftcl .award-2, .mm-result .rightcl .award-2,
-.mm-result .leftcl .award-1, .mm-result .rightcl .award-1 {
-	height: 45px;
+.mm-result-left .leftcl .award-7, .mm-result-left .rightcl .award-7,
+.mm-result-left .leftcl .award-5, .mm-result-left .rightcl .award-5,
+.mm-result-left .leftcl .award-3, .mm-result-left .rightcl .award-3,
+.mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
+.mm-result-left .leftcl .fullday, .mm-result-left .rightcl .province-code{
+	height: 25px;
+	background-color:#F6F5F4;
 }
-.mm-result .leftcl .award-6, .mm-result .rightcl .award-6 {
+.mm-result-left .leftcl .award-6, .mm-result-left .rightcl .award-6 {
 	height: 66px;
 }
-.mm-result .leftcl .award-4, .mm-result .rightcl .award-4 {
+.mm-result-left .leftcl .award-4, .mm-result-left .rightcl .award-4 {
 	height: 154px;
 }
-.mm-result .leftcl .award-3, .mm-result .rightcl .award-3 {
+.mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2 {
 	height: 45px;
 }
-.mm-result .rightcl .award-8,
-.mm-result .rightcl .award-special  {
-    color: #b92322;
+.mm-result-left .rightcl .award-8,
+.mm-result-left .rightcl .award-special  {
+    color: #BA2424;
     font-size: 24px;
     line-height: 100%;
 }
-.mm-result .rightcl .award-7,
-.mm-result .rightcl .award-6,
-.mm-result .rightcl .award-5,
-.mm-result .rightcl .award-4,
-.mm-result .rightcl .award-3,
-.mm-result .rightcl .award-2,
-.mm-result .rightcl .award-1 {
+.mm-result-left .rightcl .award-7,
+.mm-result-left .rightcl .award-6,
+.mm-result-left .rightcl .award-5,
+.mm-result-left .rightcl .award-4,
+.mm-result-left .rightcl .award-3,
+.mm-result-left .rightcl .award-2,
+.mm-result-left .rightcl .award-1 {
 	font-size: 16px;
 }
-.mm-result .rightcl .award-6,
-.mm-result .rightcl .award-4,
-.mm-result .rightcl .award-3 {
+.mm-result-left .rightcl .award-6,
+.mm-result-left .rightcl .award-4,
+.mm-result-left .rightcl .award-3 {
 	line-height: 130%;
+}
+
+.mm-result-right {
+	border: 2px solid #000000;
+	background-color: #F6F5F4;
+	font-size:11px;
+}
+.mm-result-right .leftcl .name, .mm-result-right .rightcl .name,
+.mm-result-right .leftcl .award-9, .mm-result-right .rightcl .award-9,
+.mm-result-right .leftcl .award-8, .mm-result-right .rightcl .award-8,
+.mm-result-right .leftcl .award-7, .mm-result-right .rightcl .award-7,
+.mm-result-right .leftcl .award-6, .mm-result-right .rightcl .award-6,
+.mm-result-right .leftcl .award-5, .mm-result-right .rightcl .award-5,
+.mm-result-right .leftcl .award-4, .mm-result-right .rightcl .award-4,
+.mm-result-right .leftcl .award-3, .mm-result-right .rightcl .award-3,
+.mm-result-right .leftcl .award-2, .mm-result-right .rightcl .award-2,
+.mm-result-right .leftcl .award-1, .mm-result-right .rightcl .award-1,
+.mm-result-right .leftcl .award-0, .mm-result-right .rightcl .award-0{
+    font-weight: bold;
+    font-size: 13px;
+    height: 22px;
+}
+.mm-result-right .rightcl .award-9, .mm-result-right .rightcl .award-9-second,
+.mm-result-right .rightcl .award-8, .mm-result-right .rightcl .award-8-second,
+.mm-result-right .rightcl .award-7, .mm-result-right .rightcl .award-7-second,
+.mm-result-right .rightcl .award-6, .mm-result-right .rightcl .award-6-second,
+.mm-result-right .rightcl .award-5, .mm-result-right .rightcl .award-5-second,
+.mm-result-right .rightcl .award-4, .mm-result-right .rightcl .award-4-second,
+.mm-result-right .rightcl .award-3, .mm-result-right .rightcl .award-3-second,
+.mm-result-right .rightcl .award-2, .mm-result-right .rightcl .award-2-second,
+.mm-result-right .rightcl .award-1, .mm-result-right .rightcl .award-1-second,
+.mm-result-right .rightcl .award-0, .mm-result-right .rightcl .award-0-second {
+	text-align: left;
+	padding-left: 7px;
+}
+.mm-result-right .leftcl .name,
+.mm-result-right .rightcl .name {
+	height: 22px;
+	background-color: #6F6F6F;
+	color:#fff;
+}
+.pagination {
+    background: transparent none repeat scroll 0 0;
+    height: 40px;
+    text-align: right;
+}
+.pagination ul li {
+    display: inline-block;
+}
+.pagination ul li a {
+    /*color: #000;*/
+    display: block;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 0 10px;
+}
+.pagination ul li a:hover {
+	color:#D64441;
+}
+.btn-xs {
+	color:#fff;
+	border-radius:10px;
+}
+.btn-color-red {
+	background-color: #AF0A09;
+	margin-right: 15px;
+}
+.btn-color-green {
+	background-color: #1F932E;
+}
+.mm-result-left .leftcl .dayofweek-second, .mm-result-left .rightcl .province-second,
+.mm-result-left .leftcl .award-7-second, .mm-result-left .rightcl .award-7-second,
+.mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
+.mm-result-left .leftcl .award-5-second, .mm-result-left .rightcl .award-5-second,
+.mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
+.mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
+.mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
+.mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
+.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
+    font-weight: bold;
+    font-size: 13px;
+}
+.mm-result-left .leftcl .dayofweek-second,
+.mm-result-left .rightcl .province-second{
+	height: 24px;
+	color: #D64441;
+}
+.mm-result-left .leftcl .award-7-second, .mm-result-left .rightcl .award-7-second,
+.mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
+.mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
+.mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
+.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
+	height: 25px;
+}
+.mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
+.mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
+.mm-result-left .leftcl .award-5-second, .mm-result-left .rightcl .award-5-second {
+	height: 50px;
+}
+.mm-result-left .rightcl .award-2-second div,
+.mm-result-left .rightcl .award-4-second div {
+	width: 49%;
+    display: inline-block;
+    float: left;
+}
+.mm-result-left .rightcl .award-3-second div,
+.mm-result-left .rightcl .award-5-second div,
+.mm-result-left .rightcl .award-6-second div{
+    display: inline-block;
+    float: left;
+    width: 33%;
+}
+.mm-result-left .rightcl .award-7-second div {
+    width: 24%;
+    display: inline-block;
+    float: left;
+    color:#D64441;
+}
+.mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
+.mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
+.mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
+.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
+	background-color: #F6F5F4;
+}
+.mm-result-left .rightcl .award-7-second,
+.mm-result-left .rightcl .award-6-second,
+.mm-result-left .rightcl .award-5-second,
+.mm-result-left .rightcl .award-4-second,
+.mm-result-left .rightcl .award-3-second,
+.mm-result-left .rightcl .award-2-second,
+.mm-result-left .rightcl .award-1-second,
+.mm-result-left .rightcl .award-special-second {
+	font-size: 16px;
+}
+.mm-result-right .leftcl .name-second, .mm-result-right .rightcl .name-second,
+.mm-result-right .leftcl .award-9-second, .mm-result-right .rightcl .award-9-second,
+.mm-result-right .leftcl .award-8-second, .mm-result-right .rightcl .award-8-second,
+.mm-result-right .leftcl .award-7-second, .mm-result-right .rightcl .award-7-second,
+.mm-result-right .leftcl .award-6-second, .mm-result-right .rightcl .award-6-second,
+.mm-result-right .leftcl .award-5-second, .mm-result-right .rightcl .award-5-second,
+.mm-result-right .leftcl .award-4-second, .mm-result-right .rightcl .award-4-second,
+.mm-result-right .leftcl .award-3-second, .mm-result-right .rightcl .award-3-second,
+.mm-result-right .leftcl .award-2-second, .mm-result-right .rightcl .award-2-second,
+.mm-result-right .leftcl .award-1-second, .mm-result-right .rightcl .award-1-second,
+.mm-result-right .leftcl .award-0-second, .mm-result-right .rightcl .award-0-second{
+    font-weight: bold;
+    font-size: 13px;
+    height: 27px;
+}
+.mm-result-right .leftcl .name-second,
+.mm-result-right .rightcl .name-second {
+	height: 29px;
+	background-color: #6F6F6F;
+	color:#fff;
+}
+/* kqsx-dt */
+.kqsx-dt {
+	background-color: #D64441;
+	margin-top:30px;
+	border-bottom: 2px solid #D64441;
+	border-left: 2px solid #D64441;
+	border-right: 2px solid #D64441;
+}
+.kqsx-dt div.title{
+	padding: 10px 0px;
+    margin: 5px 0px;
+}
+.box-kqsx-dt-content {
+	background-color: #fff;
+	border: 2px solid #000000;
+}
+.box-kqsx-dt-content > div:not(:last-child) {
+	border-bottom: 1px solid #373732;
+	/*padding-left: 10px;*/
+}
+.bkq123, .bkq636, .kqsxdt-tt {
+	margin-right: 10px;
+	margin-left: 10px;
+} 
+.bkq123 div.bool, .bkq636 div.bool, .kqsxdt-tt div.bool{
+	background-image: url(../images/glass-balls-40px.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    height: 42px;
+    width: 40px;
+    display: inline-block;
+    font-weight: bold;
+    border: 0px;
+    vertical-align: middle;
+    position: static;
+    margin: 10px;
+    padding-left: 0px;
+    padding-top: 7px;
+    text-align: center;
+    float: left;
+}
+.bkq123 .finnish1,
+.bkq636 .finnish1,
+.kqsxdt-tt .finnish1 {
+    background-position: left 1px;
+}
+.bkq123 .finnish2,
+.bkq636 .finnish2,
+.kqsxdt-tt .finnish2 {
+    background-position: left -42px;
+}
+.bkq123 .finnish3,
+.bkq636 .finnish3,
+.kqsxdt-tt .finnish3 {
+    background-position: left -85px;
+}
+.bkq123 .finnish4,
+.bkq636 .finnish4,
+.kqsxdt-tt .finnish4 {
+    background-position: left -129px;
+}
+.bkq123 .finnish5,
+.bkq636 .finnish5,
+.kqsxdt-tt .finnish5 {
+    background-position: left -172px;
+}
+.bkq123 .finnish6,
+.bkq636 .finnish6,
+.kqsxdt-tt .finnish6 {
+    background-position: left -215px;
+}
+.bkq123 .finnish7,
+.bkq636 .finnish7,
+.kqsxdt-tt .finnish7 {
+    background-position: left -258px;
+}
+.bkq123 .finnish8,
+.bkq636 .finnish8,
+.kqsxdt-tt .finnish8 {
+    background-position: left -301px;
+}
+.bkq123 .finnish9,
+.bkq636 .finnish9,
+.kqsxdt-tt .finnish9 {
+    background-position: left -344px;
+}
+.bkq123 .finnish10,
+.bkq636 .finnish10,
+.kqsxdt-tt .finnish10 {
+    background-position: left -387px;
+}
+.bkq123 .finnish11,
+.bkq636 .finnish11,
+.kqsxdt-tt .finnish11 {
+    background-position: left -432px;
+}
+.bkq123 div.title, .bkq636 div.title, .kqsxdt-tt div.title {
+	font-weight: bold;
+    text-align: left;
+    color:#D64441;
+}
+.bkq123 .title a, .bkq636 .title a, .kqsxdt-tt .title a {
+	color:#D64441;
+}
+.bkq636 div td.arrange-class{
+	width:10%;
 }
