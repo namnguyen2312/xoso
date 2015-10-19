@@ -28,12 +28,19 @@
 }
 /*header*/
 @media (max-width: 768px) {
+	#header-top .container{
+		padding-left: 0;	
+	}
 	h1#logo {
         text-align: center;
         margin-bottom: 30px !important;
     }
     .bkq636 div td.arrange-class{
 		width:16%;		
+	}
+	#header-top .container #header-top-right class[*="col-"]{
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 
@@ -51,8 +58,18 @@
 	    text-align: right;
 	    padding-right: 0px;
 	}
-
 	.bkq636 div td.arrange-class{
 		width:30%;		
+	}
+	#wg-kqxs, #wg-dvs{
+		width: 100%;
+	}
+	#wg-kqxs{
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 490px) {
+	#header-top .container{
+
 	}
 }
