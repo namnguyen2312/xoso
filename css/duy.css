@@ -26,6 +26,9 @@ img {
 .mgb10{
     margin-bottom:10px;
 }
+.mgt10{
+    margin-top:10px;
+}
 /*HEADER*/
 #header-top{
     padding: 20px 0;
@@ -70,6 +73,12 @@ h5.widget-mini-header{
 .widget-content ul li a:hover{
     color: #C93633;
     text-decoration:none;
+}
+#dmenu li#home a{
+    background:url('../images/home.png') no-repeat scroll center 8px transparent;
+    text-indent:-9999px;
+    margin-left:0;
+    width:50px;
 }
 #dmenu ul.mainnav li.level0 > div.wrap_submenu {
     display: none;
@@ -284,7 +293,7 @@ h5.widget-mini-header{
     text-transform: uppercase;
     transition: all 0.2s ease-out 0s;
 }
-#dmenu ul.mainnav li.level0.active > a, #dmenu ul.mainnav li.level0:hover > a,
+#dmenu li#home.active, #dmenu li#home:hover, #dmenu ul.mainnav li.level0.active > a, #dmenu ul.mainnav li.level0:hover > a,
 #user-wrap ul.mainnav li.level0.active > a, #user-wrap ul.mainnav li.level0:hover > a {
     background: #c93633 none repeat scroll 0 0;
     color: #fff;

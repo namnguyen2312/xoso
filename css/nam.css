@@ -320,7 +320,7 @@ li p.icon-status img {
 }
 .btn-xs {
 	color:#fff;
-	border-radius:10px;
+	border-radius:10px !important;
 }
 .btn-color-red {
 	background-color: #AF0A09;
