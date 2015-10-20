@@ -499,3 +499,85 @@ h5.widget-mini-header{
     padding:10px 0;
     margin-top:20px;
 }
+/*DATE PICKER*/
+.ui-widget-content{
+    background-color: #f3f3f3;
+    border:none !important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br,
+.ui-corner-left, .ui-corner-bl, .ui-corner-top, .ui-corner-tr,
+.ui-corner-top, .ui-corner-left, .ui-corner-tl{
+    border-radius: 0 !important;
+}
+.ui-datepicker{
+    padding: 0 !important;
+}
+.ui-widget-header{
+    background: #C93633 none repeat scroll 0 0 !important;
+    border: 0 !important;
+}
+.ui-datepicker .ui-datepicker-title select{
+    background-color: #C93633;
+    border: medium none;
+    color: #fff;
+    font-size: 12px !important;
+    margin-right: 5px !important;
+}
+.ui-icon-circle-triangle-w{
+    background:transparent url("../images/cldleft.png") no-repeat scroll 3px 7px !important;
+}
+.ui-icon-circle-triangle-e{
+    background:transparent url("../images/cldright.png") no-repeat scroll 3px 7px !important;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: none !important;
+    background: #C93633 none repeat scroll 0 0 !important;
+    cursor: pointer;
+}
+.ui-datepicker table{
+    margin-bottom: 0 !important;
+}
+.ui-datepicker th{
+    color: #bababa;
+    font-weight: normal !important;
+    font-size: 10px;
+}
+th.ui-datepicker-week-end:last-child{
+    border-right: 1px solid #b9b9b9 !important;
+}
+th.ui-datepicker-week-end:first-child{
+    border-left: 1px solid #b9b9b9 !important;
+}
+.ui-datepicker td{
+    border: 1px solid #b9b9b9 !important;
+    padding:0 !important;
+    background-color: #e2e2e2;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    border: none !important;
+    background-color: #e2e2e2 none repeat scroll 0 0 !important;
+    padding:8px 0;
+}
+.ui-datepicker td span, .ui-datepicker td a{
+    text-align: center !important;
+    font-size: 12px;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+    background-color: #C93633 !important;
+    color: #fff !important;
+}
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary{
+    background-color: #fff !important;
+    opacity: 1 !important;
+    color: #bababa !important;
+}
+.ui-datepicker-week-col{
+    font-size: 14px;
+    text-align: center;
+    width: 40px;
+}
