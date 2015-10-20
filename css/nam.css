@@ -173,6 +173,7 @@ li p.icon-status img {
     height: 24px;
     padding: 0px;
 }
+
 .mm-result-left .leftcl .dayofweek, .mm-result-left .rightcl .province,
 .mm-result-left .leftcl .fullday, .mm-result-left .rightcl .province-code,
 .mm-result-left .leftcl .award-8, .mm-result-left .rightcl .award-8,
@@ -342,7 +343,9 @@ li p.icon-status img {
     font-size: 13px;
 }
 .mm-result-left .leftcl .dayofweek-second,
-.mm-result-left .rightcl .province-second{
+.mm-result-left .rightcl .province-second,
+.mm-result-left .rightcl .title-kqxs
+{
 	height: 24px;
 	color: #D64441;
 }
@@ -521,4 +524,17 @@ li p.icon-status img {
 .bkq636 div td.arrange-class{
 	width:10%;
 	float:left;
+}
+.title-kqsx {
+	font-weight:bold;
+	color:#F80000;
+}
+table td span.blue-col, table td span.red-col {
+	font-size:20px;
+}
+table td span.blue-col {
+	color:#0F7EF8;
+}
+table td span.red-col {
+	color:#FB1108;
 }

@@ -26,7 +26,17 @@
 	border:none;
 	margin-bottom: 0;
 }*/
+/*.google_arrange iframe {
+	vertical-align: bottom !important;
+}*/
 /*header*/
+.social-button {
+	float:right;
+	padding-top: 15px;
+}
+.social-button ul li {
+	float: left;
+}
 @media (max-width: 768px) {	
 	h1#logo {
         text-align: center;
@@ -49,6 +59,12 @@
 	.mm-result-right {
 	    border: 2px solid #000000;
 	}
+}
+@media (max-width: 768px) {	
+	.social-button {
+	float:right;
+	padding-top: 0px;
+}
 }
 @media (max-width: 510px) {
 	.mm-result-left .leftcl .dayofweek, .mm-result-left .rightcl .province,
@@ -185,23 +201,6 @@
 	}
 	#wg-kqxs{
 		margin-bottom: 10px;
-	}
-}
-@media (max-width: 490px) {
-	.mm-result-left .rightcl .award-8,
-	.mm-result-left .rightcl .award-7,
-	.mm-result-left .rightcl .award-6,
-	.mm-result-left .rightcl .award-5,
-	.mm-result-left .rightcl .award-4,
-	.mm-result-left .rightcl .award-3,
-	.mm-result-left .rightcl .award-2,
-	.mm-result-left .rightcl .award-1,
-	.mm-result-left .rightcl .award-special {
-	    text-align: right;
-	    padding-right: 2px;
-	}
-	.bkq636 div td.arrange-class{
-		width:30%;		
 	}
 }
 @media (max-width: 320px) {
