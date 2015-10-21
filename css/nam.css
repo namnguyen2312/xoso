@@ -4,6 +4,10 @@ li {
 a:hover {
 	text-decoration: none;
 }
+.news img {
+	display: block;
+	margin: 0 auto;
+}
 .header-title, .header-title-aside {
 	font-family: utm_helvetinsregular;
 	font-size: 25px;
@@ -537,4 +541,8 @@ table td span.blue-col {
 }
 table td span.red-col {
 	color:#FB1108;
+}
+.content-description .color-red {
+	color: #FB1108;
+	font-weight: bold;
 }
