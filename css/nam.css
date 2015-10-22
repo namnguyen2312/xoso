@@ -4,6 +4,10 @@ li {
 a:hover {
 	text-decoration: none;
 }
+.news img {
+	display: block;
+	margin: 0 auto;
+}
 .header-title, .header-title-aside {
 	font-family: utm_helvetinsregular;
 	font-size: 25px;
@@ -537,4 +541,48 @@ table td span.blue-col {
 }
 table td span.red-col {
 	color:#FB1108;
+}
+.content-description .color-red {
+	color: #FB1108;
+	font-weight: bold;
+}
+.news-content .news-title {
+	font-size:25px;
+	font-weight: bold;
+}
+.news-content .pub-day {
+	font-size: 14px;
+	color: #B5B3B3;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.news-content .pub-day i, .post-container .pub-day i{
+	padding-right: 10px;
+}
+.news-content p {
+	margin: 14px 0;
+}
+.post-container {
+    overflow: auto;
+    margin: 5px 0;
+}
+.post-container .post-thumbnail {
+	float:left;
+}
+.post-container .post-thumbnail img {
+	display: block;
+}
+.post-container .post-content {
+	margin-left: 230px;
+}
+.post-container .post-content .post-title {
+	font-size:20px;
+	font-weight: bold;
+}
+.post-container .post-content p {
+	padding: 10px 0 0 0;
+}
+.post-container .post-content span {
+	color: #B5B3B3;
 }

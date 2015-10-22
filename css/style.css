@@ -20,9 +20,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-@-moz-document url-prefix() {
-  fieldset { display: table-cell; }
-}
 .mgl20{
     margin-left: 20px;
 }
@@ -31,21 +28,6 @@ img {
 }
 .mgt10{
     margin-top:10px;
-}
-.padding10{
-    padding:10px;
-}
-.paddingtb10{
-    padding-top:10px;
-    padding-bottom:10px;
-}
-.form-horizontal .form-group{
-    margin-left:0;
-}
-.row-eq-height{
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
 }
 /*HEADER*/
 #header-top{
@@ -598,43 +580,4 @@ th.ui-datepicker-week-end:first-child{
     font-size: 14px;
     text-align: center;
     width: 40px;
-}
-/*Thống kê*/
-.padding-tk{
-    padding-top:20px;
-    color:#296bd8;
-    font-weight:bold;
-}
-div.mm-result-right {
-    font-size:inherit;
-}
-.black-bg{
-    background-color:#6d716e;
-}
-.table-tk{
-    border:1px solid #6d716e;
-}
-.table-tk th{
-    background-color:#323232;
-    color:#fff;
-    text-align:center;
-}
-.table-tk td{    
-    text-align:center;
-    font-weight:bold;
-}
-td.tk-blue{
-    color:#296bd8;
-}
-td.tk-red{
-    color:#d82929;
-}
-.box-kqxs-content h5.big-submenu-title{
-    background-color: #6d716e;
-    color: #fff;
-    font-weight: bold;
-    padding: 5px;
-    text-align: center;
-    margin-top:0;
-    margin-bottom:10px;
 }
