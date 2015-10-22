@@ -495,51 +495,6 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script> 
 	<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script> 
 	<script type="text/javascript" src="js/jquery.ui.datepicker.js"></script> 
-	<script type="text/javascript" src="js/custom.js"></script> 
-	<script type="text/javascript">
-		$(document).ready(function($) {
-			$('#menu_offcanvas').html($('#dmenu').html());            
-            $('#mmenu').find('li > .wrap_submenu > ul').unwrap();
-            $('#menu_offcanvas').Accordion({
-                accordion: false,
-                expand: false,
-                el_content: 'ul, .wrap_submenu',
-                btn_open: '<i class="fa fa-plus"></i>',
-                btn_close: '<i class="fa fa-minus"></i>'
-            });
-            $('#mmenu .btn2.offcanvas').on('click', function() {
-                if ($('#menu_offcanvas').hasClass('active')) {
-                    $(this).find('.overlay').fadeOut(250);
-                    $('#menu_offcanvas').removeClass('active');
-                    $('body').removeClass('show-sidebar show-menumobile');
-                } else {
-                    $('#menu_offcanvas').addClass('active');
-                    $(this).find('.overlay').fadeIn(250);
-                    $('body').addClass('show-sidebar show-menumobile');
-                }
-            });
-
-            $( "#inputDate" ).datepicker({
-		    	/*beforeShow: function (input, inst) {
-		    		var top  = $(this).offset().top - $(this).outerHeight() - 200;
-						var left = $(this).offset().left - 20;
-			        setTimeout(function () {
-			            inst.dpDiv.css({
-			                'top' : top,
-							'left': left
-			            });
-			        }, 0);
-			    },*/
-		    	changeMonth: true,
-		    	changeYear: true,
-		    	showOtherMonths: true,
-					selectOtherMonths: true,
-					monthNamesShort: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng  9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
-		    	dayNames: ['Chủ nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'],
-				dayNamesMin: ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
-				monthNames: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng  9', 'Tháng 10', 'Tháng 11', 'Tháng 12']
-		    });
-		});
-	</script> 
+	<script type="text/javascript" src="js/custom.js"></script> 	
 </body>
 </html>
