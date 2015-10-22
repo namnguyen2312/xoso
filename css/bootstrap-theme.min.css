@@ -177,6 +177,10 @@
 	.header-title h4{
 		font-size: 14px;
 	}
+	.col-xs-12-pad{
+		padding-right:15px;
+		padding-left: 15px;
+	}
 }
 
 /*Table xổ số*/
@@ -202,9 +206,12 @@
 	#wg-kqxs{
 		margin-bottom: 10px;
 	}
+	.row-eq-height{	    
+	    display:table;
+	}
 }
 @media (max-width: 320px) {
 	.mm-result-left td.arrange {
 	    width: 20%;
-	}
+	}	
 }
