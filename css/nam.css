@@ -539,7 +539,7 @@ table td span.blue-col, table td span.red-col {
 table td span.blue-col {
 	color:#0F7EF8;
 }
-table td span.red-col {
+table td span.red-col,.box-tklx .color-red {
 	color:#FB1108;
 }
 .content-description .color-red {
@@ -586,3 +586,21 @@ table td span.red-col {
 .post-container .post-content span {
 	color: #B5B3B3;
 }
+.mm-result {
+	border: 2px #000000 solid;
+    background-color: #FFF;
+    size: 11px;
+    padding: 30px 0;
+}
+.mm-result select {
+	font-weight: bold;
+	margin-right: 20px;
+}
+.mm-result div input {
+	margin-left: 20px;
+	margin-right:5px;
+}
+.mm-result div button{
+	margin-left: 20%;
+}
+
