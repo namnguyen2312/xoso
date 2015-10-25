@@ -115,15 +115,4 @@ $(document).ready(function(){
             $('body').addClass('show-sidebar show-menumobile');
         }
     });
-
-    $('#user-wrap li:first').hover(function() {
-        $('.user-login').addClass('hover-login');
-    }, function() {
-        /* Stuff to do when the mouse leaves the element */
-        $('.user-login').removeClass('hover-login');
-    });
-    $('#user-wrap li:first').click(function(event) {
-        /* Act on the event */
-        $('.user-login').addClass('hover-login');
-    });
 })
