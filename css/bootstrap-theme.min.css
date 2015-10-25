@@ -60,11 +60,24 @@
 	    border: 2px solid #000000;
 	}
 }
+@media (max-width: 1200px) {	
+	.mm-result div button{
+	margin-left:5%;
+	}
+	.mm-result select {
+	font-weight: bold;
+	margin-right: 10px;
+	}
+	.mm-result div input {
+		margin-left: 10px;
+		margin-right:5px;
+	}
+}
 @media (max-width: 768px) {	
 	.social-button {
 	float:right;
 	padding-top: 0px;
-}
+	}
 }
 @media (max-width: 510px) {
 	.mm-result-left .leftcl .dayofweek, .mm-result-left .rightcl .province,
