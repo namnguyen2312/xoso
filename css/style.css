@@ -772,6 +772,32 @@ td.tk-red{
     line-height: 18px;
     margin-top: 5px;
 }
+.dotheothu{
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.dotheothu li{
+    display:inline-block;
+    float:left;
+}
+.dotheothu li a{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.2s ease-out 0s;
+}
+.dotheothu li:hover a, .dotheothu li a.active{
+    color:#c93532;    
+}
+.radio label{
+    font-weight:bold;   
+}
 @media (max-width: 768px) { 
     #wg-dvs .widget-content .form-group:last-child{
         margin-top:10px;
