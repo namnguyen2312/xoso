@@ -156,12 +156,12 @@ li p.icon-status img {
 	border-bottom: 2px solid #D64441;
 }
 .mm-result-left td.arrange{
-	width:15%;
+	width:20%;
 }
 .mm-result-right td.arrange {
 	width:15%;
 }
-.box-kqxs td .col-md-4,.box-kqxs td .col-md-6{
+.box-kqxs td .col-md-4,.box-kqxs td .col-md-6, .kq-special td .col-md-4, .kq-special td .col-md-6 {
 	padding-left:0px;
 	padding-right:0px;
 }
@@ -171,7 +171,8 @@ li p.icon-status img {
     size: 11px;
 }
 .mm-result-left .leftcl td, .mm-result-left .rightcl td,
-.mm-result-right .leftcl td, .mm-result-right .rightcl td{
+.mm-result-right .leftcl td, .mm-result-right .rightcl td,
+.mm-result-left thead th{
 	border: 1px #999 solid;
     text-align: center;
     height: 24px;
@@ -190,7 +191,7 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
 .mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special{
     font-weight: bold;
-    font-size: 13px;
+    font-size: 22px;
 }
 .mm-result-left .leftcl .fullday,
 .mm-result-left .leftcl .award-8, .mm-result-left .leftcl .award-7-second,
@@ -233,17 +234,17 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-3, .mm-result-left .rightcl .award-3,
 .mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
 .mm-result-left .leftcl .fullday, .mm-result-left .rightcl .province-code{
-	height: 25px;
+	height: 26px;
 	background-color:#F6F5F4;
 }
 .mm-result-left .leftcl .award-6, .mm-result-left .rightcl .award-6 {
-	height: 66px;
+	height: 95px;
 }
 .mm-result-left .leftcl .award-4, .mm-result-left .rightcl .award-4 {
-	height: 154px;
+	height: 220px;
 }
 .mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2 {
-	height: 45px;
+	height: 63px;
 }
 .mm-result-left .rightcl .award-8,
 .mm-result-left .rightcl .award-special  {
@@ -258,13 +259,13 @@ li p.icon-status img {
 .mm-result-left .rightcl .award-3,
 .mm-result-left .rightcl .award-2,
 .mm-result-left .rightcl .award-1 {
-	font-size: 16px;
+	font-size: 22px;
 }
-.mm-result-left .rightcl .award-6,
+/*.mm-result-left .rightcl .award-6,
 .mm-result-left .rightcl .award-4,
 .mm-result-left .rightcl .award-3 {
 	line-height: 130%;
-}
+}*/
 
 .mm-result-right {
 	border: 2px solid #000000;
@@ -283,8 +284,8 @@ li p.icon-status img {
 .mm-result-right .leftcl .award-1, .mm-result-right .rightcl .award-1,
 .mm-result-right .leftcl .award-0, .mm-result-right .rightcl .award-0{
     font-weight: bold;
-    font-size: 13px;
-    height: 22px;
+    font-size: 18px;
+    height: 29px;
 }
 .mm-result-right .rightcl .award-9, .mm-result-right .rightcl .award-9-second,
 .mm-result-right .rightcl .award-8, .mm-result-right .rightcl .award-8-second,
@@ -301,7 +302,7 @@ li p.icon-status img {
 }
 .mm-result-right .leftcl .name,
 .mm-result-right .rightcl .name {
-	height: 22px;
+	height: 30px;
 	background-color: #6F6F6F;
 	color:#fff;
 }
@@ -342,13 +343,15 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
 .mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
 .mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
-.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
+.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second,
+.mm-result-left thead th{
     font-weight: bold;
-    font-size: 13px;
+    font-size: 22px;
 }
 .mm-result-left .leftcl .dayofweek-second,
 .mm-result-left .rightcl .province-second,
-.mm-result-left .rightcl .title-kqxs
+.mm-result-left .rightcl .title-kqxs,
+.mm-result-left thead th
 {
 	height: 24px;
 	color: #D64441;
@@ -358,12 +361,12 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
 .mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
 .mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
-	height: 25px;
+	height: 26px;
 }
 .mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
 .mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
 .mm-result-left .leftcl .award-5-second, .mm-result-left .rightcl .award-5-second {
-	height: 50px;
+	height: 65px;
 }
 .mm-result-left .rightcl .award-2-second div,
 .mm-result-left .rightcl .award-4-second div {
@@ -398,7 +401,7 @@ li p.icon-status img {
 .mm-result-left .rightcl .award-2-second,
 .mm-result-left .rightcl .award-1-second,
 .mm-result-left .rightcl .award-special-second {
-	font-size: 16px;
+	font-size: 22px;
 }
 .mm-result-right .leftcl .name-second, .mm-result-right .rightcl .name-second,
 .mm-result-right .leftcl .award-9-second, .mm-result-right .rightcl .award-9-second,
@@ -412,12 +415,108 @@ li p.icon-status img {
 .mm-result-right .leftcl .award-1-second, .mm-result-right .rightcl .award-1-second,
 .mm-result-right .leftcl .award-0-second, .mm-result-right .rightcl .award-0-second{
     font-weight: bold;
-    font-size: 13px;
-    height: 27px;
+    font-size: 18px;
+    height: 35px;
 }
 .mm-result-right .leftcl .name-second,
 .mm-result-right .rightcl .name-second {
-	height: 29px;
+	height: 37px;
+	background-color: #6F6F6F;
+	color:#fff;
+}
+/* cvhnn-kq */
+.kq-special {
+	background-color: #6D716E;
+	border-left: 2px solid #E3E3E3;
+	border-right: 2px solid #E3E3E3;
+	border-bottom: 2px solid #E3E3E3;
+}
+.mm-result-left .leftcl .award-7-special, .mm-result-left .rightcl .award-7-special,
+.mm-result-left .leftcl .award-6-special, .mm-result-left .rightcl .award-6-special,
+.mm-result-left .leftcl .award-5-special, .mm-result-left .rightcl .award-5-special,
+.mm-result-left .leftcl .award-4-special, .mm-result-left .rightcl .award-4-special,
+.mm-result-left .leftcl .award-3-special, .mm-result-left .rightcl .award-3-special,
+.mm-result-left .leftcl .award-2-special, .mm-result-left .rightcl .award-2-special,
+.mm-result-left .leftcl .award-1-special, .mm-result-left .rightcl .award-1-special,
+.mm-result-left .leftcl .award-special-special, .mm-result-left .rightcl .award-special-special,
+.mm-result-left thead th{
+    font-weight: bold;
+    font-size: 22px;
+}
+.mm-result-left .rightcl .title-kqxs,
+.mm-result-left thead th
+{
+	height: 24px;
+	color: #D64441;
+}
+.mm-result-left .leftcl .award-8-special, .mm-result-left .rightcl .award-8-special,
+.mm-result-left .leftcl .award-7-special, .mm-result-left .rightcl .award-7-special,
+.mm-result-left .leftcl .award-6-special, .mm-result-left .rightcl .award-6-special,
+.mm-result-left .leftcl .award-2-special, .mm-result-left .rightcl .award-2-special,
+.mm-result-left .leftcl .award-1-special, .mm-result-left .rightcl .award-1-special,
+.mm-result-left .leftcl .award-special-special, .mm-result-left .rightcl .award-special-special{
+	height: 50px;
+}
+.mm-result-left .leftcl .award-3-special, .mm-result-left .rightcl .award-3-special,
+.mm-result-left .leftcl .award-4-special, .mm-result-left .rightcl .award-4-special,
+.mm-result-left .leftcl .award-5-special, .mm-result-left .rightcl .award-5-special {
+	height: 70px;
+}
+.mm-result-left .leftcl .award-6-special, .mm-result-left .rightcl .award-6-special,
+.mm-result-left .leftcl .award-4-special, .mm-result-left .rightcl .award-4-special,
+.mm-result-left .leftcl .award-2-special, .mm-result-left .rightcl .award-2-special,
+.mm-result-left .leftcl .award-special-special, .mm-result-left .rightcl .award-special-special{
+	background-color: #F6F5F4;
+}
+.mm-result-left .rightcl .award-7-special,
+.mm-result-left .rightcl .award-6-special,
+.mm-result-left .rightcl .award-5-special,
+.mm-result-left .rightcl .award-4-special,
+.mm-result-left .rightcl .award-3-special,
+.mm-result-left .rightcl .award-2-special,
+.mm-result-left .rightcl .award-1-special,
+.mm-result-left .rightcl .award-special-special {
+	font-size: 22px;
+}
+.mm-result-right .leftcl .name-special, .mm-result-right .rightcl .name-special,
+.mm-result-right .leftcl .award-9-special, .mm-result-right .rightcl .award-9-special,
+.mm-result-right .leftcl .award-8-special, .mm-result-right .rightcl .award-8-special,
+.mm-result-right .leftcl .award-7-special, .mm-result-right .rightcl .award-7-special,
+.mm-result-right .leftcl .award-6-special, .mm-result-right .rightcl .award-6-special,
+.mm-result-right .leftcl .award-5-special, .mm-result-right .rightcl .award-5-special,
+.mm-result-right .leftcl .award-4-special, .mm-result-right .rightcl .award-4-special,
+.mm-result-right .leftcl .award-3-special, .mm-result-right .rightcl .award-3-special,
+.mm-result-right .leftcl .award-2-special, .mm-result-right .rightcl .award-2-special,
+.mm-result-right .leftcl .award-1-special, .mm-result-right .rightcl .award-1-special,
+.mm-result-right .leftcl .award-0-special, .mm-result-right .rightcl .award-0-special{
+    font-weight: bold;
+    font-size: 18px;
+    height: 45px;
+}
+.mm-result-right .leftcl .name-special,
+.mm-result-right .rightcl .name-special {
+	height: 42px;
+	background-color: #6F6F6F;
+	color:#fff;
+}
+.mm-result-right .leftcl .name-special8, .mm-result-right .rightcl .name-special8,
+.mm-result-right .leftcl .award-9-special8, .mm-result-right .rightcl .award-9-special8,
+.mm-result-right .leftcl .award-8-special8, .mm-result-right .rightcl .award-8-special8,
+.mm-result-right .leftcl .award-7-special8, .mm-result-right .rightcl .award-7-special8,
+.mm-result-right .leftcl .award-6-special8, .mm-result-right .rightcl .award-6-special8,
+.mm-result-right .leftcl .award-5-special8, .mm-result-right .rightcl .award-5-special8,
+.mm-result-right .leftcl .award-4-special8, .mm-result-right .rightcl .award-4-special8,
+.mm-result-right .leftcl .award-3-special8, .mm-result-right .rightcl .award-3-special8,
+.mm-result-right .leftcl .award-2-special8, .mm-result-right .rightcl .award-2-special8,
+.mm-result-right .leftcl .award-1-special8, .mm-result-right .rightcl .award-1-special8,
+.mm-result-right .leftcl .award-0-special8, .mm-result-right .rightcl .award-0-special8{
+    font-weight: bold;
+    font-size: 18px;
+    height: 50px;
+}
+.mm-result-right .leftcl .name-special8,
+.mm-result-right .rightcl .name-special8 {
+	height: 42px;
 	background-color: #6F6F6F;
 	color:#fff;
 }
@@ -534,7 +633,7 @@ li p.icon-status img {
 	color:#F80000;
 }
 table td span.blue-col, table td span.red-col {
-	font-size:20px;
+	font-size:26px;
 }
 table td span.blue-col {
 	color:#0F7EF8;
@@ -603,4 +702,9 @@ table td span.red-col,.box-tklx .color-red {
 .mm-result div button{
 	margin-left: 20%;
 }
-
+.special-text {
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	padding: 5px;
+	font-weight:bold;
+}

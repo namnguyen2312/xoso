@@ -92,7 +92,19 @@
 	.mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
 	.mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special{
 	    font-weight: bold;
-	    font-size: 11px;
+	    font-size: 13px;
+	}
+	.mm-result-left .leftcl .fullday, .mm-result-left .rightcl .province-code,
+	.mm-result-left .leftcl .award-8, .mm-result-left .rightcl .award-8,
+	.mm-result-left .leftcl .award-7, .mm-result-left .rightcl .award-7,
+	.mm-result-left .leftcl .award-6, .mm-result-left .rightcl .award-6,
+	.mm-result-left .leftcl .award-5, .mm-result-left .rightcl .award-5,
+	.mm-result-left .leftcl .award-4, .mm-result-left .rightcl .award-4,
+	.mm-result-left .leftcl .award-3, .mm-result-left .rightcl .award-3,
+	.mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2,
+	.mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
+	.mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special{
+	    font-size: 15px;
 	}
 	.mm-result-left .rightcl .award-8,
 	.mm-result-left .rightcl .award-7,
@@ -109,7 +121,7 @@
 	.mm-result-left .rightcl .award-8,
 	.mm-result-left .rightcl .award-special  {
 	    color: #BA2424;
-	    font-size: 14px;
+	    font-size: 18px;
 	    line-height: 100%;
 	}
 	.mm-result-left .rightcl .award-7,
@@ -119,7 +131,7 @@
 	.mm-result-left .rightcl .award-3,
 	.mm-result-left .rightcl .award-2,
 	.mm-result-left .rightcl .award-1 {
-		font-size: 12px;
+		font-size: 18px;
 	}
 	.mm-result-right .leftcl .name, .mm-result-right .rightcl .name,
 	.mm-result-right .leftcl .award-9, .mm-result-right .rightcl .award-9,
@@ -133,18 +145,8 @@
 	.mm-result-right .leftcl .award-1, .mm-result-right .rightcl .award-1,
 	.mm-result-right .leftcl .award-0, .mm-result-right .rightcl .award-0{
 	    font-weight: bold;
-	    font-size: 11px;
-	    height: 22px;
-	}
-	.mm-result-left .rightcl .award-7-second,
-	.mm-result-left .rightcl .award-6-second,
-	.mm-result-left .rightcl .award-5-second,
-	.mm-result-left .rightcl .award-4-second,
-	.mm-result-left .rightcl .award-3-second,
-	.mm-result-left .rightcl .award-2-second,
-	.mm-result-left .rightcl .award-1-second,
-	.mm-result-left .rightcl .award-special-second {
-		font-size: 12px;
+	    font-size: 18px;
+	    height: 26px;
 	}
 	.mm-result-left .leftcl .dayofweek-second, .mm-result-left .rightcl .province-second,
 	.mm-result-left .leftcl .award-7-second, .mm-result-left .rightcl .award-7-second,
@@ -156,7 +158,17 @@
 	.mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
 	.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
 	    font-weight: bold;
-	    font-size: 11px;
+	    font-size: 13px;
+	}
+	.mm-result-left .leftcl .award-7-second, .mm-result-left .rightcl .award-7-second,
+	.mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
+	.mm-result-left .leftcl .award-5-second, .mm-result-left .rightcl .award-5-second,
+	.mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
+	.mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
+	.mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
+	.mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
+	.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second {
+		font-size:15px;
 	}
 	.mm-result-right .leftcl .name-second, .mm-result-right .rightcl .name-second,
 	.mm-result-right .leftcl .award-9-second, .mm-result-right .rightcl .award-9-second,
@@ -170,7 +182,7 @@
 	.mm-result-right .leftcl .award-1-second, .mm-result-right .rightcl .award-1-second,
 	.mm-result-right .leftcl .award-0-second, .mm-result-right .rightcl .award-0-second{
 	    font-weight: bold;
-	    font-size: 11px;
+	    font-size: 18px;
 	    height: 27px;
 	}
 	.mm-result-left .rightcl .award-7-second,
@@ -181,7 +193,32 @@
 	.mm-result-left .rightcl .award-2-second,
 	.mm-result-left .rightcl .award-1-second,
 	.mm-result-left .rightcl .award-special-second {
-		font-size: 12px;
+		font-size: 18px;
+	}
+	.mm-result-left .leftcl .award-7-special, .mm-result-left .rightcl .award-7-special,
+	.mm-result-left .leftcl .award-6-special, .mm-result-left .rightcl .award-6-special,
+	.mm-result-left .leftcl .award-5-special, .mm-result-left .rightcl .award-5-special,
+	.mm-result-left .leftcl .award-4-special, .mm-result-left .rightcl .award-4-special,
+	.mm-result-left .leftcl .award-3-special, .mm-result-left .rightcl .award-3-special,
+	.mm-result-left .leftcl .award-2-special, .mm-result-left .rightcl .award-2-special,
+	.mm-result-left .leftcl .award-1-special, .mm-result-left .rightcl .award-1-special,
+	.mm-result-left .leftcl .award-special-special, .mm-result-left .rightcl .award-special-special,
+	.mm-result-left thead th{
+	    font-weight: bold;
+	    font-size: 18px;
+	}
+	.mm-result-left .rightcl .award-7-special,
+	.mm-result-left .rightcl .award-6-special,
+	.mm-result-left .rightcl .award-5-special,
+	.mm-result-left .rightcl .award-4-special,
+	.mm-result-left .rightcl .award-3-special,
+	.mm-result-left .rightcl .award-2-special,
+	.mm-result-left .rightcl .award-1-special,
+	.mm-result-left .rightcl .award-special-special {
+		font-size: 18px;
+	}
+	table td span.blue-col, table td span.red-col {
+	font-size:22px;
 	}
 	.col-xs-12 {
 		padding-left: 0px;
@@ -208,7 +245,32 @@
 	.mm-result-left .rightcl .award-1,
 	.mm-result-left .rightcl .award-special {
 	    text-align: right;
-	    padding-right: 0px;
+	    padding-right: 5px;
+	}
+	.mm-result-left .leftcl .award-7-special, .mm-result-left .rightcl .award-7-special,
+	.mm-result-left .leftcl .award-6-special, .mm-result-left .rightcl .award-6-special,
+	.mm-result-left .leftcl .award-5-special, .mm-result-left .rightcl .award-5-special,
+	.mm-result-left .leftcl .award-4-special, .mm-result-left .rightcl .award-4-special,
+	.mm-result-left .leftcl .award-3-special, .mm-result-left .rightcl .award-3-special,
+	.mm-result-left .leftcl .award-2-special, .mm-result-left .rightcl .award-2-special,
+	.mm-result-left .leftcl .award-1-special, .mm-result-left .rightcl .award-1-special,
+	.mm-result-left .leftcl .award-special-special, .mm-result-left .rightcl .award-special-special,
+	.mm-result-left thead th{
+	    font-weight: bold;
+	    font-size: 16px;
+	}
+	.mm-result-left .rightcl .award-7-special,
+	.mm-result-left .rightcl .award-6-special,
+	.mm-result-left .rightcl .award-5-special,
+	.mm-result-left .rightcl .award-4-special,
+	.mm-result-left .rightcl .award-3-special,
+	.mm-result-left .rightcl .award-2-special,
+	.mm-result-left .rightcl .award-1-special,
+	.mm-result-left .rightcl .award-special-special {
+		font-size: 16px;
+	}
+	table td span.blue-col, table td span.red-col {
+	font-size:18px;
 	}
 	.bkq636 div td.arrange-class{
 		width:30%;		
@@ -243,6 +305,6 @@
 }
 @media (max-width: 320px) {
 	.mm-result-left td.arrange {
-	    width: 20%;
+	    width: 25%;
 	}	
 }
