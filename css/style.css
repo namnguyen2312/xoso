@@ -798,6 +798,10 @@ td.tk-red{
 .radio label{
     font-weight:bold;   
 }
+.tr-black{
+    background-color:#323232;
+    color:#fff;
+}
 @media (max-width: 768px) { 
     #wg-dvs .widget-content .form-group:last-child{
         margin-top:10px;
