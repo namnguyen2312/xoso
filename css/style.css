@@ -802,6 +802,13 @@ td.tk-red{
     background-color:#323232;
     color:#fff;
 }
+.table-chuky{
+
+}
+.table-chuky table td{
+    font-size: 10px;
+    padding: 2px !important;
+}
 @media (max-width: 768px) { 
     #wg-dvs .widget-content .form-group:last-child{
         margin-top:10px;
