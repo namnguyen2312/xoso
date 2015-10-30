@@ -94,7 +94,8 @@ h5.widget-mini-header{
 }
 .widget-content ul li a{
     color: #000;
-    transition: all 0.2s ease-out 0s; 
+    transition: all 0.2s ease-out 0s;
+	font-weight:bold;
 }
 .widget-content ul li a:hover{
     color: #C93633;
