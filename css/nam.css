@@ -189,7 +189,8 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-3, .mm-result-left .rightcl .award-3,
 .mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2,
 .mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
-.mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special{
+.mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special,
+.mm-result-left .rightcl .award-special-second,.mm-result-left .rightcl .award-7-second{
     font-weight: bold;
     font-size: 22px;
 }
@@ -247,9 +248,11 @@ li p.icon-status img {
 	height: 63px;
 }
 .mm-result-left .rightcl .award-8,
-.mm-result-left .rightcl .award-special  {
+.mm-result-left .rightcl .award-special,
+.mm-result-left .rightcl .award-special-second,
+.mm-result-left .rightcl .award-7-second {
     color: #BA2424;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 100%;
 }
 .mm-result-left .rightcl .award-7,
@@ -336,14 +339,14 @@ li p.icon-status img {
 	background-color: #1F932E;
 }
 .mm-result-left .leftcl .dayofweek-second, .mm-result-left .rightcl .province-second,
-.mm-result-left .leftcl .award-7-second, .mm-result-left .rightcl .award-7-second,
+.mm-result-left .leftcl .award-7-second,
 .mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
 .mm-result-left .leftcl .award-5-second, .mm-result-left .rightcl .award-5-second,
 .mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
 .mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
 .mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
 .mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
-.mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second,
+.mm-result-left .leftcl .award-special-second,
 .mm-result-left thead th{
     font-weight: bold;
     font-size: 22px;
@@ -385,7 +388,7 @@ li p.icon-status img {
     width: 24%;
     display: inline-block;
     float: left;
-    color:#D64441;
+    color:#BA2424;
 }
 .mm-result-left .leftcl .award-6-second, .mm-result-left .rightcl .award-6-second,
 .mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
@@ -393,14 +396,12 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
 	background-color: #F6F5F4;
 }
-.mm-result-left .rightcl .award-7-second,
 .mm-result-left .rightcl .award-6-second,
 .mm-result-left .rightcl .award-5-second,
 .mm-result-left .rightcl .award-4-second,
 .mm-result-left .rightcl .award-3-second,
 .mm-result-left .rightcl .award-2-second,
-.mm-result-left .rightcl .award-1-second,
-.mm-result-left .rightcl .award-special-second {
+.mm-result-left .rightcl .award-1-second{
 	font-size: 22px;
 }
 .mm-result-right .leftcl .name-second, .mm-result-right .rightcl .name-second,
@@ -706,5 +707,8 @@ table td span.red-col,.box-tklx .color-red {
 	background-color: #FFFFFF;
 	border: 2px solid #000000;
 	padding: 5px;
+	font-weight:bold;
+}
+.form-control {
 	font-weight:bold;
 }

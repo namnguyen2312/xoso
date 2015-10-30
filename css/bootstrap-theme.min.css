@@ -119,9 +119,11 @@
 	    padding-right: 2px;
 	}
 	.mm-result-left .rightcl .award-8,
-	.mm-result-left .rightcl .award-special  {
+	.mm-result-left .rightcl .award-special,
+	.mm-result-left .rightcl .award-special-second,
+	.mm-result-left .rightcl .award-7-second{
 	    color: #BA2424;
-	    font-size: 18px;
+	    font-size: 20px;
 	    line-height: 100%;
 	}
 	.mm-result-left .rightcl .award-7,
