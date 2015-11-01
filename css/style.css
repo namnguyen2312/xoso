@@ -26,6 +26,9 @@ img {
 .mgl20{
     margin-left: 20px;
 }
+.mgl20important{
+    margin-left: 20px !important;
+}
 .mgb10{
     margin-bottom:10px;
 }
@@ -45,6 +48,9 @@ img {
 }
 .form-horizontal .form-group{
     margin-left:0;
+}
+.form-horizontal .form-group .form-width{
+    width: 70px !important;
 }
 .row-eq-height{
     display:-webkit-flex;
@@ -729,7 +735,7 @@ td.tk-red{
     display: inline-block;
     width: 24%;
 }
-.giai3 > div{
+.giai3 > div,.giai2 > div{
     display: inline-block;
     float: left;    
     width: 50%;
@@ -810,6 +816,9 @@ td.tk-red{
     font-size: 10px;
     padding: 2px !important;
 }
+.mm-result-left div > div > a {
+    font-weight: 500;
+}
 @media (max-width: 768px) { 
     #wg-dvs .widget-content .form-group:last-child{
         margin-top:10px;
@@ -823,6 +832,14 @@ td.tk-red{
     .col-right{
         border-left:none;
         padding:0 10px !important;
+    }
+}
+@media (max-width: 767px) { 
+    .form-horizontal .form-group .form-width {
+        width: 100% !important;
+    }
+    .mgl20important {
+        margin-left: 0px !important;
     }
 }
 @media (max-width: 320px) {

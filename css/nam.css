@@ -190,7 +190,16 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-2, .mm-result-left .rightcl .award-2,
 .mm-result-left .leftcl .award-1, .mm-result-left .rightcl .award-1,
 .mm-result-left .leftcl .award-special, .mm-result-left .rightcl .award-special,
-.mm-result-left .rightcl .award-special-second,.mm-result-left .rightcl .award-7-second{
+.mm-result-left .rightcl .award-special-second,.mm-result-left .rightcl .award-7-second,
+.mm-result-left .leftcl .giai8, .mm-result-left .rightcl .giai8,
+.mm-result-left .leftcl .giai7, .mm-result-left .rightcl .giai7,
+.mm-result-left .leftcl .giai6, .mm-result-left .rightcl .giai6,
+.mm-result-left .leftcl .giai5, .mm-result-left .rightcl .giai5,
+.mm-result-left .leftcl .giai4, .mm-result-left .rightcl .giai4,
+.mm-result-left .leftcl .giai3, .mm-result-left .rightcl .giai3,
+.mm-result-left .leftcl .giai2, .mm-result-left .rightcl .giai2,
+.mm-result-left .leftcl .giai1, .mm-result-left .rightcl .giai1,
+.mm-result-left .leftcl .giaidb, .mm-result-left .rightcl .giaidb{
     font-weight: bold;
     font-size: 22px;
 }
@@ -203,9 +212,20 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-3, .mm-result-left .leftcl .award-2-second,
 .mm-result-left .leftcl .award-2, .mm-result-left .leftcl .award-1-second,
 .mm-result-left .leftcl .award-1, .mm-result-left .leftcl .award-special-second,
-.mm-result-left .leftcl .award-special {
+.mm-result-left .leftcl .award-special{
     text-align: left;
     padding-left: 7px;
+}
+.mm-result-left .rightcl .giai8,
+.mm-result-left .rightcl .giaidb {
+	font-size:26px;
+}
+.mm-result-left .leftcl .giai8,
+.mm-result-left .leftcl .giaidb {
+	line-height: 37px;
+}
+.mm-result-left .leftcl .giai4{
+	line-height: 62px;
 }
 .mm-result-left .rightcl .award-8,
 .mm-result-left .rightcl .award-7,
@@ -252,7 +272,7 @@ li p.icon-status img {
 .mm-result-left .rightcl .award-special-second,
 .mm-result-left .rightcl .award-7-second {
     color: #BA2424;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 100%;
 }
 .mm-result-left .rightcl .award-7,
@@ -287,7 +307,7 @@ li p.icon-status img {
 .mm-result-right .leftcl .award-1, .mm-result-right .rightcl .award-1,
 .mm-result-right .leftcl .award-0, .mm-result-right .rightcl .award-0{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     height: 29px;
 }
 .mm-result-right .rightcl .award-9, .mm-result-right .rightcl .award-9-second,
@@ -303,9 +323,37 @@ li p.icon-status img {
 	text-align: left;
 	padding-left: 7px;
 }
+.mm-result-right .rightcl .giai9, .mm-result-right .leftcl .giai9,
+.mm-result-right .rightcl .giai8, .mm-result-right .leftcl .giai8,
+.mm-result-right .rightcl .giai7, .mm-result-right .leftcl .giai7,
+.mm-result-right .rightcl .giai6, .mm-result-right .leftcl .giai6,
+.mm-result-right .rightcl .giai5, .mm-result-right .leftcl .giai5,
+.mm-result-right .rightcl .giai4, .mm-result-right .leftcl .giai4,
+.mm-result-right .rightcl .giai3, .mm-result-right .leftcl .giai3,
+.mm-result-right .rightcl .giai2, .mm-result-right .leftcl .giai2,
+.mm-result-right .rightcl .giai1, .mm-result-right .leftcl .giai1,
+.mm-result-right .rightcl .giai0, .mm-result-right .leftcl .giai0,
+.mm-result-right .rightcl .ten, .mm-result-right .leftcl .ten {
+	font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+}
+.mm-result-left .rightcl .giai7, .mm-result-left .leftcl .giai7,
+.mm-result-left .rightcl .giai5, .mm-result-left .leftcl .giai5,
+.mm-result-left .rightcl .giai3, .mm-result-left .leftcl .giai3,
+.mm-result-left .rightcl .giai1, .mm-result-left .leftcl .giai1 {
+	background-color: #F6F5F4;
+}
 .mm-result-right .leftcl .name,
-.mm-result-right .rightcl .name {
+.mm-result-right .rightcl .name
+{
 	height: 30px;
+	background-color: #6F6F6F;
+	color:#fff;
+}
+.mm-result-right .leftcl .ten,
+.mm-result-right .rightcl .ten {
+	height: 31px;
 	background-color: #6F6F6F;
 	color:#fff;
 }
@@ -364,7 +412,7 @@ li p.icon-status img {
 .mm-result-left .leftcl .award-2-second, .mm-result-left .rightcl .award-2-second,
 .mm-result-left .leftcl .award-1-second, .mm-result-left .rightcl .award-1-second,
 .mm-result-left .leftcl .award-special-second, .mm-result-left .rightcl .award-special-second{
-	height: 26px;
+	height: 35px;
 }
 .mm-result-left .leftcl .award-3-second, .mm-result-left .rightcl .award-3-second,
 .mm-result-left .leftcl .award-4-second, .mm-result-left .rightcl .award-4-second,
@@ -417,11 +465,11 @@ li p.icon-status img {
 .mm-result-right .leftcl .award-0-second, .mm-result-right .rightcl .award-0-second{
     font-weight: bold;
     font-size: 18px;
-    height: 35px;
+    height: 36px;
 }
 .mm-result-right .leftcl .name-second,
 .mm-result-right .rightcl .name-second {
-	height: 37px;
+	height: 42px;
 	background-color: #6F6F6F;
 	color:#fff;
 }
