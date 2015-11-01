@@ -816,8 +816,24 @@ td.tk-red{
     font-size: 10px;
     padding: 2px !important;
 }
+<<<<<<< HEAD
 .mm-result-left div > div > a {
     font-weight: 500;
+=======
+.table-lanxuathien td{
+    border-bottom: medium none !important;
+    border-top: medium none !important;
+    padding: 4px 2px !important;
+}
+.textbold{
+    font-weight:bold;
+}
+.textxanhla{
+    color:#086113;
+}
+.textxanhduong{
+    color:#7999ff;
+>>>>>>> d47f5416da3bd2b2458a4066de78d22f67b79afc
 }
 @media (max-width: 768px) { 
     #wg-dvs .widget-content .form-group:last-child{
