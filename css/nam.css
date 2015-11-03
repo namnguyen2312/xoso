@@ -772,86 +772,87 @@ table td span.red-col,.box-tklx .color-red {
 }
 
 /* kqxs chart */
-.kqxs-chart div {
-	display:inline-block;
-	
-	
-}
+
 .kqxs-chart div.chart-effect {
 	height: 62px;
 	line-height: 70px;
-	width: 100%;
 }
 .kqxs-chart div.chart-effect > div {
 	height: 17px;
 	background: red;
 	transition: width 2s;
 	 -webkit-transition: width 2s; /* Safari */
+	 display: inline-block;
 }
 .kqxs-chart div.chart-effect > span {
-	font-weight:bold;	
+	font-weight:bold;
+	display: inline-block;
 }
 
 #div-chart1 {
-	width: 100%;
+	width: 70%;
 	transition-timing-function: ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart2 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart3 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart4 {
-	width: 25em;
+	width: 70%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart5 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart6 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart7 {
-	width: 25em;
+	width: 70%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart8 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart9 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart10 {
-	width: 25em;
+	width: 70%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart11 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 #div-chart12 {
-	width: 15em;
+	width: 45%;
 	transition-timing-function:  ease-out;
 	-webkit-transition-timing-function:  ease-out;
 }
 .dvs-table table > tbody > tr > td {
 	border-top: 0px solid #ddd !important;  
 }
+.kqxs-chart div.chart-effect {
+		line-height: 15px;
+		padding-top: 15px;
+	}
