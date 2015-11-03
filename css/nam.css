@@ -593,7 +593,7 @@ li p.icon-status img {
 	margin-right: 10px;
 	margin-left: 10px;
 } 
-.bkq123 div.bool, .bkq636 div.bool, .kqsxdt-tt div.bool{
+.bkq123 div.bool, .bkq636 div.bool, .kqsxdt-tt div.bool, .kqxs-chart div.bool{
 	background-image: url(../images/glass-balls-40px.png);
     background-repeat: no-repeat;
     font-size: 20px;
@@ -612,27 +612,32 @@ li p.icon-status img {
 }
 .bkq123 .finnish1,
 .bkq636 .finnish1,
-.kqsxdt-tt .finnish1 {
+.kqsxdt-tt .finnish1,
+.kqxs-chart .finnish1 {
     background-position: left 1px;
 }
 .bkq123 .finnish2,
 .bkq636 .finnish2,
-.kqsxdt-tt .finnish2 {
+.kqsxdt-tt .finnish2,
+.kqxs-chart .finnish2 {
     background-position: left -42px;
 }
 .bkq123 .finnish3,
 .bkq636 .finnish3,
-.kqsxdt-tt .finnish3 {
+.kqsxdt-tt .finnish3,
+.kqxs-chart .finnish3 {
     background-position: left -85px;
 }
 .bkq123 .finnish4,
 .bkq636 .finnish4,
-.kqsxdt-tt .finnish4 {
+.kqsxdt-tt .finnish4,
+.kqxs-chart .finnish4 {
     background-position: left -129px;
 }
 .bkq123 .finnish5,
 .bkq636 .finnish5,
-.kqsxdt-tt .finnish5 {
+.kqsxdt-tt .finnish5,
+.kqxs-chart .finnish5 {
     background-position: left -172px;
 }
 .bkq123 .finnish6,
@@ -642,27 +647,32 @@ li p.icon-status img {
 }
 .bkq123 .finnish7,
 .bkq636 .finnish7,
-.kqsxdt-tt .finnish7 {
+.kqsxdt-tt .finnish7,
+.kqxs-chart .finnish7 {
     background-position: left -258px;
 }
 .bkq123 .finnish8,
 .bkq636 .finnish8,
-.kqsxdt-tt .finnish8 {
+.kqsxdt-tt .finnish8,
+.kqxs-chart .finnish8 {
     background-position: left -301px;
 }
 .bkq123 .finnish9,
 .bkq636 .finnish9,
-.kqsxdt-tt .finnish9 {
+.kqsxdt-tt .finnish9,
+.kqxs-chart .finnish9 {
     background-position: left -344px;
 }
 .bkq123 .finnish10,
 .bkq636 .finnish10,
-.kqsxdt-tt .finnish10 {
+.kqsxdt-tt .finnish10,
+.kqxs-chart .finnish10 {
     background-position: left -387px;
 }
 .bkq123 .finnish11,
 .bkq636 .finnish11,
-.kqsxdt-tt .finnish11 {
+.kqsxdt-tt .finnish11,
+.kqxs-chart .finnish11 {
     background-position: left -432px;
 }
 .bkq123 div.title, .bkq636 div.title, .kqsxdt-tt div.title {
@@ -759,4 +769,89 @@ table td span.red-col,.box-tklx .color-red {
 }
 .form-control {
 	font-weight:bold;
+}
+
+/* kqxs chart */
+.kqxs-chart div {
+	display:inline-block;
+	
+	
+}
+.kqxs-chart div.chart-effect {
+	height: 62px;
+	line-height: 70px;
+	width: 100%;
+}
+.kqxs-chart div.chart-effect > div {
+	height: 17px;
+	background: red;
+	transition: width 2s;
+	 -webkit-transition: width 2s; /* Safari */
+}
+.kqxs-chart div.chart-effect > span {
+	font-weight:bold;	
+}
+
+#div-chart1 {
+	width: 100%;
+	transition-timing-function: ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart2 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart3 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart4 {
+	width: 25em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart5 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart6 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart7 {
+	width: 25em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart8 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart9 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart10 {
+	width: 25em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart11 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+#div-chart12 {
+	width: 15em;
+	transition-timing-function:  ease-out;
+	-webkit-transition-timing-function:  ease-out;
+}
+.dvs-table table > tbody > tr > td {
+	border-top: 0px solid #ddd !important;  
 }
