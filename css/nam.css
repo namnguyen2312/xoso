@@ -275,6 +275,11 @@ li p.icon-status img {
     font-size: 24px;
     line-height: 100%;
 }
+.mm-result-left .rightcl .award-8,
+.mm-result-left .rightcl .award-special-second,
+.mm-result-left .rightcl .award-7-second{
+	font-size: 28px;
+} 
 .mm-result-left .rightcl .award-7,
 .mm-result-left .rightcl .award-6,
 .mm-result-left .rightcl .award-5,
@@ -866,3 +871,9 @@ table td span.red-col,.box-tklx .color-red {
 		line-height: 15px;
 		padding-top: 15px;
 	}
+tr.remove-tdborder td {
+	border:0 !important;
+}
+.doimau-ten {
+	background-color:#F6F5F4 !important;
+}
