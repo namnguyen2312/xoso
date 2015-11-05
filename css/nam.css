@@ -319,7 +319,17 @@ li p.icon-status img {
 .mm-result-right .rightcl .award-3, .mm-result-right .rightcl .award-3-second,
 .mm-result-right .rightcl .award-2, .mm-result-right .rightcl .award-2-second,
 .mm-result-right .rightcl .award-1, .mm-result-right .rightcl .award-1-second,
-.mm-result-right .rightcl .award-0, .mm-result-right .rightcl .award-0-second {
+.mm-result-right .rightcl .award-0, .mm-result-right .rightcl .award-0-second,
+.mm-result-right .rightcl .giai9, 
+.mm-result-right .rightcl .giai8, 
+.mm-result-right .rightcl .giai7, 
+.mm-result-right .rightcl .giai6,
+.mm-result-right .rightcl .giai5, 
+.mm-result-right .rightcl .giai4, 
+.mm-result-right .rightcl .giai3, 
+.mm-result-right .rightcl .giai2, 
+.mm-result-right .rightcl .giai1, 
+.mm-result-right .rightcl .giai0 {
 	text-align: left;
 	padding-left: 7px;
 }
