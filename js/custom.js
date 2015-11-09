@@ -81,10 +81,10 @@
     };
 
 
-})(jQuery);; 
 
-$(document).ready(function(){
+
     $( "#inputDate" ).datepicker({
+        dateFormat: 'dd/mm/yy',
         changeMonth: true,
         changeYear: true,
         showOtherMonths: true,
@@ -126,4 +126,6 @@ $(document).ready(function(){
         /* Act on the event */
         $('.user-login').addClass('hover-login');
     });
-})
+
+
+})(jQuery);; 
